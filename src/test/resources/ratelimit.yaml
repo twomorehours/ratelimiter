@@ -1,0 +1,14 @@
+appLimits:
+  - appId: order-service
+    apiLimits:
+      - uri: /a
+        limit: 1
+        unit: 1
+      - uri: /b
+        limit: 2
+        unit: 1
+  - appId: payment-service
+    apiLimits:
+      - uri: /c
+        limit: 3
+        unit: 2
